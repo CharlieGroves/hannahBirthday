@@ -19,6 +19,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
 <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
   <a href="javascript:void(0)" onclick="w3_close()"
   class="w3-bar-item w3-button">Close Menu</a>
+  <a href="javascript:void(0)" onclick="confetti.stop()"
+  class="w3-bar-item w3-button">Stop Confetti</a>
+  <a href="javascript:void(0)" onclick="confetti.start()"
+  class="w3-bar-item w3-button">Restart Confetti</a>
   <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">See Background Photo</a>
 </nav>
 
@@ -55,19 +59,20 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
       <h3>‘Happy Birthday!’</h3>
       <p>- Becca & Alex</p>
     </div>
-    <div class="w3-quarter">
-      <img src="video-placeholder.jpg" alt="Sandwich" style="width:100%">
-      <h3>"Quote Placeholder"</h3>
-      <p>- Name, Name and Name</p>
-    </div>
+  <div class="w3-quarter">
+    <video style="width:100%" controls>
+      <source src="videos/Amy.mp4" type="video/mp4">
+    </video>
+    <p>- Amy</p>
   </div>
   
   <!-- Second Photo Grid-->
   <div class="w3-row-padding w3-padding-16 w3-center">
     <div class="w3-quarter">
-      <img src="video-placeholder.jpg" alt="Sandwich" style="width:100%">
-      <h3>"Quote Placeholder"</h3>
-      <p>- Name, Name and Name</p>
+      <video style="width:100%" controls>
+        <source src="videos/Kay.mp4" type="video/mp4">
+      </video>
+      <p>- Kay</p>
     </div>
     <div class="w3-quarter">
       <img src="video-placeholder.jpg" alt="Sandwich" style="width:100%">
