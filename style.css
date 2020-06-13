@@ -531,7 +531,13 @@ a {
 .w3-threequarter,
 .w3-quarter {
     float: left;
-    width: 100%
+    width: 100%;
+}
+.w3-quarter-white{
+    float: left;
+    width: 25%;
+    background-image: url("carol.jpeg");
+    background-size: 300px 168px;
 }
 .w3-col.s1 {
     width: 8.33333%

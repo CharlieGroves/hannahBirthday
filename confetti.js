@@ -211,3 +211,7 @@ var confetti = {
 		}
 	}
 })();
+
+function loadImage() {
+	window.location.href = '\pageTwo.html'
+}
