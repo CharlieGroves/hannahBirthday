@@ -15,7 +15,11 @@ html {
 body {
     margin: 0;
     background-image: url("darker.png");
-    background-size: 800px 450px;
+    background-size: 1275px 717px;
+}
+.body1{
+    background-image: url("darker.png");
+    background-size: 1100px 618.75px;
 }
 article,
 aside,
