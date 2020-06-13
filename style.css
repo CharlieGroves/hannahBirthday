@@ -14,7 +14,7 @@ html {
 }
 body {
     margin: 0;
-    background-image: url("light.png");
+    background-image: url("darker.png");
     background-size: 800px 450px;
 }
 article,
@@ -537,7 +537,7 @@ a {
     float: left;
     width: 25%;
     background-image: url("carol.jpeg");
-    background-size: 300px 168px;
+    background-size: 300px 225px;
 }
 .w3-col.s1 {
     width: 8.33333%
