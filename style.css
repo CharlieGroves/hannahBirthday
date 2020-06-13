@@ -13,7 +13,9 @@ html {
     -webkit-text-size-adjust: 100%
 }
 body {
-    margin: 0
+    margin: 0;
+    background-image: url("light.png");
+    background-size: 800px 450px;
 }
 article,
 aside,
