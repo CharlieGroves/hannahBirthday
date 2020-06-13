@@ -215,3 +215,7 @@ var confetti = {
 function loadImage() {
 	window.location.href = '\pageTwo.html'
 }
+
+function loadPhotos () {
+	window.location.href = '\photos.html'
+}
